@@ -1,0 +1,95 @@
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.list ul {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    list-style: none;
+}
+
+.list li {
+    margin-right: 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+    opacity: 1;
+    color: rgb(122, 122, 122);
+
+}
+
+.list li:hover {
+    color: rgba(232, 150, 232, 0.749);
+    scale: 1.1;
+}
+
+.list a {
+    text-decoration: none;
+}
+
+.new {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-transform: uppercase;
+    text-align: center;
+    /* align-items: center; */
+    line-height: 50px;
+
+
+}
+
+.main1 {
+    /* margin: 200px; */
+    /* margin-top: 100px; */
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    align-items: center;
+    height: 100%;
+
+}
+
+.a {
+    font-size: 20px;
+    color: white;
+}
+
+.b {
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 80px;
+    color: aliceblue;
+
+    font-family: Poppins, sans-serif;
+
+}
+
+.button {
+    text-transform: uppercase;
+    height: 50px;
+    width: 200px;
+   background-color:plum;
+   color: aliceblue;
+   
+   margin-left: 90px;
+   
+   
+  
+
+}
+
+.m {
+    background-image: url(https://static.vecteezy.com/system/resources/previews/050/752/913/non_2x/panoramic-natural-landscape-with-green-grass-field-blue-sky-clouds-and-mountains-in-background-at-eye-level-photo.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body{
+    margin: 0;
+    margin: 0;
+}
