@@ -93,3 +93,294 @@ body{
     margin: 0;
     margin: 0;
 }
+.amout
+{
+    /* margin-left:550px; */
+    text-transform: uppercase;
+    text-align: center;
+    border: 2px  darkgray solid;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 80px;
+    color: dimgrey;
+}
+
+.box2
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;align-items: center;
+}
+
+.text{
+    font-size: 25px;
+    color: #3c4258;
+    text-transform: initial;
+    line-height: 1.8;
+    font-weight: 500;
+}
+.text2
+{
+    font-size: 20px;
+    color: #999fb3;
+   
+    border-bottom: 1px solid #999fb3;
+}
+.img{
+    align-items: center;
+    display: flex;
+}
+.text3
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+
+.d2
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.profile
+{
+    text-transform: uppercase;
+    text-align: center;
+    border: 2px  darkgray solid;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 80px;
+    color: dimgrey;
+}
+.box1
+{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    margin-top: 50px;
+    /* align-items: center; */
+    display: flex;
+     /* border-bottom: 1px solid #999fb3; */
+     text-transform: initial;
+     
+}
+
+
+.box5
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.mainbox i:hover {
+    /* color: rgba(232, 150, 232, 0.749);
+    scale: 1.1; */
+    /* color: cadetblue; */
+    /* scale: 1.5;
+    background-color: aqua; */
+    
+   
+}
+.mainbox .f1:hover,.f2:hover,.f3:hover,.f4:hover {
+    /* color: rgba(232, 150, 232, 0.749);
+    scale: 1.1; */
+    /* color: cadetblue; */
+    /* scale: 1.2; */
+    background-color: aqua;
+    transform: scale(1.1);
+    opacity: 0.7; 
+    /* padding-left: 0px; */
+    
+    
+   
+}
+
+.mainbox .f5:hover,.f6:hover,.f7:hover,.f8:hover {
+    /* color: rgba(232, 150, 232, 0.749);
+    scale: 1.1; */
+    /* color: cadetblue; */
+    /* scale: 1.2; */
+    background-color: aqua;
+    transform: scale(1.1);
+    opacity: 0.7; 
+    /* padding-left: 0px; */
+    
+    
+   
+}
+.mainbox
+{
+    border: 2px dimgrey solid;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    padding: 50px;
+    /* border-bottom: 1px solid #999fb3; */
+    height: 400px;
+   
+   
+  
+   
+}
+
+i{
+    font-size: 50px;
+    color: black;
+   
+  
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+  
+}
+.f1
+{
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   /* background-color: aqua; */
+   height: 100px;
+   width: 400px;
+   align-items: center;
+   border-right: 2px solid black;
+   padding: 20px;
+   padding-bottom: 40px;
+   background-color: white; /* Initial background color */
+   opacity: 1; /* Fully opaque */
+   transition: all 0.3s ease; /* Smooth transition for all properties */
+   transform-origin: center;
+   
+
+
+}
+.f2
+{
+    display: flex;
+   justify-content: center;
+   text-align: center;
+   /* background-color: aqua; */
+   height: 100px;
+   width: 400px;
+   align-items: center;
+   border-right: 2px solid black;
+   padding: 20px;
+   padding-bottom: 40px;
+   background-color: white; /* Initial background color */
+   opacity: 1; /* Fully opaque */
+   transition: all 0.3s ease; /* Smooth transition for all properties */
+   transform-origin: center;
+   
+}
+.f3{
+    display: flex;
+   justify-content: center;
+   text-align: center;
+   /* background-color: aqua; */
+   height: 100px;
+   width: 400px;
+   align-items: center;
+   border-right: 2px solid black;
+   padding: 20px;
+   padding-bottom: 40px;
+   background-color: white; /* Initial background color */
+   opacity: 1; /* Fully opaque */
+   transition: all 0.3s ease; /* Smooth transition for all properties */
+   transform-origin: center;
+
+}
+.f4{
+    display: flex;
+   justify-content: center;
+   text-align: center;
+   /* background-color: aqua; */
+   height: 100px;
+   width: 400px;
+   align-items: center;
+   border-right: 2px solid black;
+   padding: 20px;
+   padding-bottom: 40px;
+   background-color: white; /* Initial background color */
+   opacity: 1; /* Fully opaque */
+   transition: all 0.3s ease; /* Smooth transition for all properties */
+   transform-origin: center;
+}
+
+.f5
+{
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   /* background-color: aqua; */
+   height: 100px;
+   width: 400px;
+   align-items: center;
+   border-right: 2px solid black;
+   padding: 20px;
+   padding-bottom: 40px;
+   border-top: 2px solid black;
+   background-color: white; /* Initial background color */
+   opacity: 1; /* Fully opaque */
+   transition: all 0.3s ease; /* Smooth transition for all properties */
+   transform-origin: center;
+  
+
+}
+.f6{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    /* background-color: aqua; */
+    height: 100px;
+    width: 400px;
+    align-items: center;
+    border-right: 2px solid black;
+    padding: 20px;
+    padding-bottom: 40px;
+    border-top: 2px solid black;
+    background-color: white; /* Initial background color */
+    opacity: 1; /* Fully opaque */
+    transition: all 0.3s ease; /* Smooth transition for all properties */
+    transform-origin: center;
+}
+.f7{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    /* background-color: aqua; */
+    height: 100px;
+    width: 400px;
+    align-items: center;
+    border-right: 2px solid black;
+    padding: 20px;
+    padding-bottom: 40px;
+    border-top: 2px solid black;
+    background-color: white; /* Initial background color */
+    opacity: 1; /* Fully opaque */
+    transition: all 0.3s ease; /* Smooth transition for all properties */
+    transform-origin: center;
+}
+.f8{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    /* background-color: aqua; */
+    height: 100px;
+    width: 400px;
+    align-items: center;
+    border-right: 2px solid black;
+    padding: 20px;
+    padding-bottom: 40px;
+    border-top: 2px solid black;
+    background-color: white; /* Initial background color */
+    opacity: 1; /* Fully opaque */
+    transition: all 0.3s ease; /* Smooth transition for all properties */
+    transform-origin: center;
+}
+
+
+
